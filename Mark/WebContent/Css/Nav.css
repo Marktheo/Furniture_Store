@@ -1,0 +1,55 @@
+nav{
+	display: flex;
+	height: 80px;
+	padding: 20px;
+    font-size: 1.4em;
+    align-items: center;
+    user-select: none;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow:  2px 2px 5px lightgrey;
+}
+nav img{
+	width: 200px;
+	vertical-align: middle;
+	user-select: none;
+}
+nav a{
+	user-select: none;
+    text-decoration: none;
+    vertical-align: middle;
+}
+nav a[name="profile"]{
+	cursor: pointer;
+	color: white;
+	border: 0px solid;
+	border-radius: 5px;
+	padding: 7.5px 15px;
+	border-radius: 10px;
+	border: 0px solid;
+	background-color: black;
+	box-shadow: 2px 2px 6px grey;
+}
+nav a:hover:not( nav a[name="profile"]){
+    color: darkgrey;
+}
+ul[name="nav-ul"]{
+	display: flex;
+	gap: 40px;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 30px;
+}
+@media (max-width: 750px){
+	nav a[name="link"] {
+		display: none;
+	}
+}
+@media (max-width: 330px){
+	nav img{
+		width: 180px;
+		vertical-align: middle;
+		user-select: none;
+	}
+}

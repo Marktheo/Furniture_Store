@@ -1,0 +1,101 @@
+body{
+	background-image: url("/Mark/Media/Main.png");
+}
+
+.cart-box{
+	width: 60%;
+	display: flex;
+	height: fit-content;
+	min-width: 600px;
+	padding: 30px;
+	margin: 0px auto;
+	text-align: center;
+	flex-direction: column;
+	border-radius: 10px;
+	background-color: white;
+	border: .5px solid lightgrey;
+	box-shadow: 2px 2px 6px grey;
+}
+
+.cart-content{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px grey;
+}
+
+.cart-left{
+	display: flex;
+	width: 65%;
+	padding: 30px;
+	flex-direction: column;
+}
+
+.cart-text{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.cart-product{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cart-description{
+	border: 0px;
+	outline: 0;
+	width: 40%;
+	font-size: 1.0em;
+	text-align: center;
+}
+
+.cart-del{
+	width: 13%;
+	font-size: 1.0em;
+	padding: 5px;
+	border-radius: 10px;
+	text-align: center;
+	border: .5px solid lightgrey;
+	box-shadow: 2px 2px 6px grey;
+}
+
+.cart-right{
+	display: flex;
+	width: 30%;
+	padding: 30px;
+	flex-direction: column;
+}
+
+.cart-subtotal, .cart-delivery, .cart-total{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.cart-btn{
+	width: 85%;
+	font-size: 1.1em;
+	padding: 10px;
+	min-width: 200px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 20px auto 0px;
+	border: .5px solid lightgrey;
+	box-shadow: 2px 2px 6px grey;
+}
+
+footer{
+	bottom: 0;
+    width: 100%;
+	text-align: center;
+	font-size: 1.1em;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px -1px 3px darkgrey;
+}

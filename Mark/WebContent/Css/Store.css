@@ -1,0 +1,76 @@
+body{
+	background-image: url("/Mark/Media/Main.png");
+	background-attachment: fixed;
+}
+.store-box{
+	width: 60%;
+	display: flex;
+	height: fit-content;
+	min-width: 600px;
+	padding: 50px 50px 0px 50px;
+	margin: 0px auto 50px;
+	text-align: center;
+	flex-direction: column;
+	border-radius: 10px;
+	background-color: white;
+	border: .5px solid lightgrey;
+	box-shadow: 2px 2px 6px grey;
+}
+
+.store-column{
+	width: 100%;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px grey;
+}
+
+.store-line{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.store-img{
+	width: 45%;
+}
+
+.store-title{
+	gap: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	font-size: 1.4em;
+	margin: 20px 0px;
+}
+
+.store-section{
+	gap: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px 25px;
+	margin-bottom: 22px;
+}
+
+.store-btn{
+	display: block;
+	width: 70%;
+	font-size: 1.1em;
+	padding: 10px 0px;
+	margin: 20px auto 0px;
+	min-width: 200px;
+	border-radius: 10px;
+	border: .5px solid lightgrey;
+	box-shadow: 2px 2px 6px grey;
+}
+
+footer{
+    width: 100%;
+	text-align: center;
+	font-size: 1.1em;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px -1px 3px darkgrey;
+}

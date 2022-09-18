@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+		 version="3.1">
+  <servlet>
+    <description></description>
+    <display-name>HttpServlet</display-name>
+    <servlet-name>HttpServlet</servlet-name>
+    <servlet-class>javax.servlet.http.HttpServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+	<servlet-name>Home</servlet-name>
+	<jsp-file>/Home.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>Login</servlet-name>
+	<jsp-file>/Login.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>SignUp</servlet-name>
+	<jsp-file>/SignUp.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignUp</servlet-name>
+    <url-pattern>/SignUp</url-pattern>
+  </servlet-mapping>
+  
+    <servlet> 
+	<servlet-name>Recover</servlet-name>
+	<jsp-file>/Recover.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Recover</servlet-name>
+    <url-pattern>/Recover</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+	<servlet-name>Check</servlet-name>
+	<jsp-file>/Check.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Check</servlet-name>
+    <url-pattern>/Check</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Profile</servlet-name>
+	<jsp-file>/Profile.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Profile</servlet-name>
+    <url-pattern>/Profile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Store</servlet-name>
+	<jsp-file>/Store.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Store</servlet-name>
+    <url-pattern>/Store</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Cart</servlet-name>
+	<jsp-file>/Cart.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Cart</servlet-name>
+    <url-pattern>/Cart</url-pattern>
+  </servlet-mapping>
+  
+  <display-name>Mark</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

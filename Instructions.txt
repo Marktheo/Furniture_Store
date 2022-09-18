@@ -1,0 +1,22 @@
+Aluno: Marcos Vinícius Theodoro
+Professor: Carlos Eduardo Pantoja
+CEFET/RJ Uned. Maria da Graça
+Turma/Ano: 3aatmint / 2021
+
+Arquivo de Origem
+1- Descompile o arquivo do projeto web "Mark.zip"
+
+Database - MySQL
+1- Abra o MySQL
+2- Abra a pasta "SQL"
+3- Rode o arquivo de origem do banco de dados "Markbase.sql"
+
+WebProject - Eclipse
+1- Abra o Eclipse
+2- Importe e abra o projeto no Eclipse
+3- Instale o arquivo da pasta "Jar" no "Build Path" do projeto
+4- Adicione um JRE e um servidor (de preferência JDK 11.0.10.9 e Tomcat 8.5)
+5- Altere os dados na "dao.SQLConnector"
+5- Inicialize o servidor e abra o site no navegador
+
+Um abraço e boas férias!!! 🥳
